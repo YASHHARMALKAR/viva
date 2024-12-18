@@ -1,0 +1,179 @@
+KDD (Knowledge Discovery in Databases) in data mining refers to the process of extracting valuable insights, patterns, and knowledge from large datasets.
+ Data abstraction is the process of hiding unwanted and irrelevant details from the end user. It helps to store information in such a way that the end user can access data which is necessary, the user will not be able to see what data is stored or how it is stored in a database
+ An Abstract Data Type (ADT) is a conceptual model that defines a set of operations and behaviours for a data type, without specifying how these operations are implemented or how data is organized in memory.
+ OLAP (Online Analytical Processing) is a technology that allows users to quickly analyze large volumes of data from multiple perspectives by storing it in a multidimensional structure, often called a "cube," enabling fast, interactive querying and reporting to extract business insights from complex datasets;
+ Online transaction processing (OLTP) is a method of data processing that manages and stores large numbers of transactions in real time
+ In a database management system (DBMS), "partitioning" refers to the process of dividing a large table into smaller, more manageable sections called "partitions," allowing for separate storage and access of data subsets,
+ A database is a structured collection of data that is stored electronically and organized for efficient access and management. Databases can store any type of data, including numbers, words, images, videos, and files
+
+
+Here are the answers to all your questions in a clear and concise manner:
+
+---
+
+### *1. What is Classification and Clustering?*
+- *Classification:* It is a supervised learning technique that assigns data points to predefined categories or classes based on training data (e.g., spam vs. not spam emails).  
+- *Clustering:* It is an unsupervised learning technique that groups data into clusters based on similarity without predefined labels.
+
+---
+
+### *2. K-Means Algorithm*
+- *K-Means* is a clustering algorithm that divides data into K clusters by iteratively minimizing the distance between cluster centroids and the data points.  
+*Steps:*  
+   1. Initialize K centroids randomly.  
+   2. Assign points to the nearest centroid.  
+   3. Update centroids as the mean of the points in each cluster.  
+   4. Repeat until centroids do not change significantly.  
+
+---
+
+### *3. Association Rules*
+- Association rules are used to identify relationships or patterns in large datasets (e.g., Market Basket Analysis).  
+- *Example:* If a customer buys bread, they are likely to buy butter.  
+- *Metrics Used:* Support, Confidence, Lift.
+
+---
+
+### *4. K-Nearest Neighbor (KNN) Algorithm*
+- KNN is a supervised learning algorithm used for classification and regression.  
+- *Steps:*  
+   1. Choose the K nearest neighbors based on distance (e.g., Euclidean distance).  
+   2. Use majority voting (for classification) or average value (for regression).  
+
+---
+
+### *5. Naive Bayes*
+- A probabilistic classification algorithm based on Bayes' Theorem.  
+- *Assumption:* Features are conditionally independent.  
+- Used in spam detection, text classification, etc.
+
+---
+
+### *6. Decision Tree*
+- A decision tree is a tree-like model used for classification and regression.  
+- *Terms in Decision Tree:*  
+   - *Root Node:* The topmost node.  
+   - *Decision Nodes:* Internal nodes where decisions are made.  
+   - *Leaf Nodes:* Final output nodes.  
+   - *Splitting:* Dividing a node into sub-nodes.  
+   - *Pruning:* Removing branches to reduce overfitting.
+
+---
+
+### *7. Hierarchical Clustering (Agglomerative and Divisive Clustering)*
+- *Agglomerative:* A bottom-up approach where each data point starts as a cluster, and clusters are merged iteratively.  
+- *Divisive:* A top-down approach where all points start in one cluster, and the cluster is split iteratively.  
+
+---
+
+### *8. What is Data Mining?*
+- Data mining is the process of discovering patterns, relationships, and insights from large datasets using techniques like clustering, classification, and association rules.
+
+---
+
+### *9. Knowledge Discovery in Databases (KDD) Process*
+- *Steps:*  
+   1. Data Selection  
+   2. Data Preprocessing  
+   3. Data Transformation  
+   4. Data Mining  
+   5. Interpretation/Evaluation  
+
+---
+
+### *10. Data Preprocessing*
+- Data preprocessing involves cleaning and transforming raw data into a format suitable for analysis.  
+- *Steps:*  
+   - Handling missing values  
+   - Removing duplicates  
+   - Normalization  
+   - Encoding categorical data  
+
+---
+
+### *11. Linear Regression*
+- A supervised learning algorithm used for predicting a continuous output.  
+- It models the relationship between input X and output Y as:  
+   \( Y = mX + b \)  
+   where \( m \) is the slope and \( b \) is the intercept.
+
+---
+
+### *12. Apriori Algorithm and Market Basket Analysis*
+- *Apriori Algorithm:* It is used for finding frequent itemsets in transactional data to generate association rules.  
+- *Market Basket Analysis:* Identifies items frequently bought together (e.g., bread and butter).
+
+---
+
+### *13. How to Handle Missing Values?*
+- Methods include:  
+   1. Removing rows/columns with missing data.  
+   2. Replacing with mean/median/mode.  
+   3. Predicting missing values using machine learning.  
+   4. Using advanced imputation techniques (e.g., KNN imputation).  
+
+---
+
+### *14. Supervised vs. Unsupervised Learning*
+- *Supervised:* Input data is labeled (e.g., classification, regression).  
+- *Unsupervised:* Input data is not labeled (e.g., clustering, association).
+
+---
+
+### *15. What is Cluster Analysis?*
+- Cluster analysis groups data points into clusters based on their similarity. It is an unsupervised learning method.
+
+---
+
+### *16. What is Market Basket Analysis?*
+- Market basket analysis identifies items frequently purchased together using association rules.  
+
+---
+
+### *17. Abstract Data Type (ADT)*
+- ADT defines the behavior (operations) of a data type without specifying its implementation.  
+- Examples: Stack, Queue, List.
+
+---
+
+### *18. OLAP vs. OLTP*
+- *OLAP (Online Analytical Processing):* For data analysis and decision-making (e.g., reporting systems).  
+- *OLTP (Online Transaction Processing):* For transaction-oriented tasks (e.g., banking systems).  
+
+---
+
+### *19. Agglomerative Clustering Approach*
+- *Approach Used:* Bottom-up approach, where each data point starts as its own cluster and clusters are merged iteratively based on similarity.
+
+---
+
+### *20. Partitioning Methods*
+- Partitioning divides data into smaller, manageable chunks.  
+- *Types of Partitioning:*  
+   - Range partitioning  
+   - Hash partitioning  
+   - List partitioning  
+   - Composite partitioning  
+
+---
+
+### *21. Where is Partitioning Useful?*
+- Useful in databases, distributed systems, and large-scale data processing to optimize performance.
+
+---
+
+### *22. Parallel Database vs. Distributed Database*
+- *Parallel Database:* Uses multiple processors in the same system to execute queries faster.  
+- *Distributed Database:* Data is distributed across multiple physical locations.
+
+---
+
+### *23. ETL Process*
+- *ETL (Extract, Transform, Load):*  
+   1. *Extract:* Extract data from various sources.  
+   2. *Transform:* Clean and format data.  
+   3. *Load:* Load data into the target system (e.g., data warehouse).  
+
+--- 
+
+If you need any specific explanation or elaboration, let me know! 😊
